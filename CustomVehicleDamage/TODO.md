@@ -20,6 +20,10 @@
 > There is also an issue with the height of the wings when they sit high enough that players can walk under them. This is a limitation of the 2D Polygon check so for big planes.
 There should be an additional check between the player's Zpos and the height of the wing, if the difference is higher than 1 unit (gta:sa is metric) then the code should return 0 because because they aren't really close enough to cause damage using melee weapons
 
+> Perhaps this could be done with a hierarchy of simple areas instead of a complex polygon (similar to how collisions are handled in most engines). The body could be a long cuboid and the wings could be a flat cuboid. Or, it could be done on a per-model basis where the wings are completely ignored for large planes and a diamond shape is used for smaller ones (with each point of the diamond being at the wing tips, nose and tail).
+
+> another way to solve this is just to use 3 areas for big planes: one for the main hull and one for each big wing. Area overlapping might/should be taken into consideration however, so we only count each valid hit once.
+
 ### Miscellaneous
 
 > Probably needs a standard include-guard:
