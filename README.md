@@ -8,6 +8,8 @@ These projects have not been updated in a very long time and may or may not be u
 
 ### Generic Projects
 
+[DeathWindow](https://github.com/Ryder17z/SAMP-Projects/tree/main/DeathWindow) - Custom Death Window for sa-mp
+
 [RocketGun](https://github.com/Ryder17z/SAMP-Projects/tree/main/RocketGun) - A new projectile/rocket type weapon for sa-mp - Concept Code
 
 ### Data Manipulation and Saving/Loading
