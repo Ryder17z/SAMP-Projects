@@ -8,13 +8,17 @@ These projects have not been updated in a very long time and may or may not be u
 
 ### Generic Projects
 
+[RocketGun](https://github.com/Ryder17z/SAMP-Projects/tree/main/RocketGun) - A new projectile/rocket type weapon for sa-mp - Concept Code
+
 ### Data Manipulation and Saving/Loading
 
 [LoadClassSelect](https://github.com/Ryder17z/SAMP-Projects/tree/main/LoadClassSelect) - Loads the Class Select data from a file (reliable proof-of-concept implementation)
 
+[PickupSystem](https://github.com/Ryder17z/SAMP-Projects/tree/main/PickupSystem) - Load pickups for sa-mp - vehicle nos/repair & teleporting
+
 [mta-sa_converter](https://github.com/Ryder17z/SAMP-Projects/tree/main/mta-sa_converter) - MTA SA >>> SA-MP (objects/vehicle converter)
 
-[PickupSystem](https://github.com/Ryder17z/SAMP-Projects/tree/main/PickupSystem) - Save/load pickups for sa-mp - vehicle nos/repair & teleporting
+[objects2sql](https://github.com/Ryder17z/SAMP-Projects/tree/main/objects2sql) - sa-mp objects to sql converter and a "search script" to easily find a specific object model ID
 
 ## Licensing
 
