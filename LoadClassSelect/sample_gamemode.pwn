@@ -69,7 +69,7 @@ public OnGameModeInit()
 		fwrite(cHandle, class_tempdata);
 		format(class_tempdata, sizeof(class_tempdata), "%f // ClassSelect:Camera_Look_X\r\n", ClassSelect_Camera_Look_X);
 		fwrite(cHandle, class_tempdata);
-		format(class_tempdata, sizeof(class_tempdata), "%f // ClassSelect:Camera_Look_Y\r\n", ClassSelect_Camera_Look_X);
+		format(class_tempdata, sizeof(class_tempdata), "%f // ClassSelect:Camera_Look_Y\r\n", ClassSelect_Camera_Look_Y);
 		fwrite(cHandle, class_tempdata);
 		format(class_tempdata, sizeof(class_tempdata), "%f // ClassSelect:Camera_Look_Z\r\n", ClassSelect_Camera_Look_Z);
 		fwrite(cHandle, class_tempdata);
